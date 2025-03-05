@@ -1,1 +1,2 @@
 # Digital-Clock
+This digital clock module consists of a **time generator** that tracks seconds, minutes, and hours using a clock divider. The **binary-to-BCD converter** converts the time values into BCD format for display. A **multiplexing display controller** cycles through four 7-segment displays using a **digit selector counter**. The final **Top module** integrates all components to display the real-time clock on a 4-digit 7-segment display.
